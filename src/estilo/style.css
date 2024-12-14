@@ -5,3 +5,29 @@
     azul: #59CCEE
     roxo: #5f2c82
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #59CCEE;
+}
+
+div#formulario {
+    display: block;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+div > h1 {
+    text-align: center;
+}
