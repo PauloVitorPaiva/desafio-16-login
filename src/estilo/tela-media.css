@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+@media screen and (min-width:769px) {
+    html, body {
+        background-image: linear-gradient(to bottom, #59CCEE, #469db8 ,#5f2c82);
+    }
+
+    div#formulario {
+        width: 400px;
+        height: 330px;
+        top: 40%;
+        left: 27%;
+    }
+
+    #iemail {
+        width: 320px;
+    }
+
+    #isenha {
+        width: 320px;
+    }
+
+    img#peq {display: none;}
+    img#med {
+        display: block;
+        position: absolute;
+        top: 32%;
+        left: 55%;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.350);
+    }
+
+    #ent {
+        width: 400px;
+    }
+
+    form button {
+        width: 400px;
+    }
+    
+}
